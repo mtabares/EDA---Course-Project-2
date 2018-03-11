@@ -32,10 +32,7 @@ year: The year of emissions recorded
 Source Classification Code Table (Source_Classification_Code.rds): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
 You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:
-
-
-
-as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
+... as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
 
 Assignmentmenos 
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
@@ -50,9 +47,10 @@ Plot2. Have total emissions from PM2.5 decreased in the Baltimore City, Maryland
 Plot3. Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
 
 Plot4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
-How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
 
-Plot 5. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+Plot5. How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+
+Plot 6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
 
 Making and Submitting Plotsmenos 
 For each plot you should
