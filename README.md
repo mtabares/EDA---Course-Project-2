@@ -35,9 +35,11 @@ You can read each of the two files using the readRDS() function in R. For exampl
 ... as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
 
 Assignmentmenos 
+
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
 
 Questions
+
 You must address the following questions and tasks in your exploratory analysis. For each question/task you will need to make a single plot. Unless specified, you can use any plotting system in R to make your plot.
 
 Plot1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
